@@ -1,0 +1,44 @@
+/*.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {*/
+/*    border-color: #fcfbff;*/
+/*}*/
+
+/*.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {*/
+/*    border-color: #003399 !important;*/
+/*}*/
+
+/*.MuiFormLabel-root {*/
+/*    color: rgba(217, 217, 217, 0.5);*/
+/*}*/
+
+
+div.MuiPaper-elevation1 {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+label.MuiInputLabel-outlined {
+    color: rgba(217, 217, 217, 0.5);
+}
+
+div.MuiOutlinedInput-root {
+    border-radius: 8px;
+}
+
+/*.MuiIconButton-label {*/
+/*    color: #003399;*/
+/*}*/
+
+/*input:-webkit-autofill,*/
+/*input:-webkit-autofill:hover,*/
+/*input:-webkit-autofill:focus,*/
+/*input:-webkit-autofill:active{*/
+/*    -webkit-box-shadow: 0 0 0 30px #232323 inset !important;*/
+/*}*/
+
+/*input:-webkit-autofill{*/
+/*    -webkit-text-fill-color: #fcfbff !important;*/
+/*}*/
+
+span.MuiCheckbox-root {
+    padding: 0 9px 9px 9px;
+}

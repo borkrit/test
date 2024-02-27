@@ -1,0 +1,44 @@
+html{
+    width: 100%;
+    max-width: 100%;
+}
+
+.background {
+    background-color: #fff;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Inter-Regular', 'Inter-Bold', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/*@media (max-width: 768px) {*/
+/*    html {*/
+/*        overflow-x: hidden;*/
+/*    }*/
+
+/*    body {*/
+/*        overflow-x: hidden;*/
+/*    }*/
+/*}*/
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
