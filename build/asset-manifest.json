@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8bbaa52.css",
+    "main.js": "/static/js/main.c021b6e9.js",
+    "static/media/publikacje.png": "/static/media/publikacje.77a5fb1926b71b4545d1.png",
+    "static/media/background-main.png": "/static/media/background-main.1cb2f1af0067d2f90c8c.png",
+    "static/media/filmy.png": "/static/media/filmy.2a6b7b5f0504e30d9f9f.png",
+    "static/media/wycieczki.png": "/static/media/wycieczki.df2acd626c1bd9c3697c.png",
+    "static/media/main-banner.png": "/static/media/main-banner.d7c07f5761bc35f9cd8e.png",
+    "static/media/main-banner-filter.png": "/static/media/main-banner-filter.31d6f57e94e9923f23cb.png",
+    "static/media/main-about-page.png": "/static/media/main-about-page.a585be3f3782810e7ca7.png",
+    "static/media/invest.svg": "/static/media/invest.d6c764ac07e62454c6face6b7468722c.svg",
+    "static/media/inna.png": "/static/media/inna.37e654fe3617b9720c24.png",
+    "static/media/piotr.png": "/static/media/piotr.4971c14cf8729f0e6f2a.png",
+    "static/media/LOGO.svg": "/static/media/LOGO.591c7013ed3db506e5507edded2ac669.svg",
+    "static/media/adbis-promouted.svg": "/static/media/adbis-promouted.ac4c9d4f658473b5f8096b3db37df50d.svg",
+    "static/media/support-icon.svg": "/static/media/support-icon.b145a2687f34d6f3d5c056567c5e3ff7.svg",
+    "static/media/contact-icon.svg": "/static/media/contact-icon.f1bba9524c74451a55a66d1def8a5566.svg",
+    "static/media/posts-count-icon.svg": "/static/media/posts-count-icon.bb2f59b579e7a5507fb95871909efa67.svg",
+    "index.html": "/index.html",
+    "static/media/download-icon.svg": "/static/media/download-icon.9893fab3f26d42139ed4acd4ca1d2320.svg",
+    "static/media/Share.svg": "/static/media/Share.38c3a600e0f0b418bb35c5f242ff2266.svg",
+    "static/media/tt.svg": "/static/media/tt.cb534131b3e99620a7882d6720dfd7c5.svg",
+    "static/media/wcag-logo.svg": "/static/media/wcag-logo.1c002b20de382fea1fc6f21c68a78eec.svg",
+    "static/media/inst.svg": "/static/media/inst.76607dcb45789685a2bee9da4adc4940.svg",
+    "static/media/in.svg": "/static/media/in.78a2f5d104c050e73aa8b806ebf8b750.svg",
+    "static/media/fb.svg": "/static/media/fb.8f1198a8e626e1a439bb368f073bdbfb.svg",
+    "static/media/ArrowRightForLink.svg": "/static/media/ArrowRightForLink.f025d42fd05a8fba2d970f4968da084f.svg",
+    "static/media/search.svg": "/static/media/search.d27248beef2778e945d83f566d9a3a11.svg",
+    "static/media/ToggleMenuIcon.svg": "/static/media/ToggleMenuIcon.61c70dd5b128e1c06158112cb972243c.svg",
+    "static/media/Close.svg": "/static/media/Close.b28e214a61fd0638fe9ecd565c229380.svg",
+    "static/media/ArrowIcon.svg": "/static/media/ArrowIcon.32e8fcc03fe7eaea4d1c5fd7270d9ef5.svg",
+    "main.e8bbaa52.css.map": "/static/css/main.e8bbaa52.css.map",
+    "main.c021b6e9.js.map": "/static/js/main.c021b6e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8bbaa52.css",
+    "static/js/main.c021b6e9.js"
+  ]
+}
