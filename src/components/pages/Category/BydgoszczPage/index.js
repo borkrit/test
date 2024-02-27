@@ -33,7 +33,7 @@ const BydgoszczPage = () => {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const bydgoszczCategoryIdResponse = await axios.get(`https://weckwerthblog.wpcomstaging.com/wp-json/wp/v2/categories?slug=bydgoszcz`);
+                const bydgoszczCategoryIdResponse = await axios.get(`https://turystykabezfiltrow.com/wp-json/wp/v2/categories?slug=bydgoszcz`);
 
                 if (bydgoszczCategoryIdResponse.data.length === 0) {
                     console.error('Category "bydgoszcz" not found.');
@@ -42,12 +42,12 @@ const BydgoszczPage = () => {
 
                 const bydgoszczCategoryId = bydgoszczCategoryIdResponse.data[0].id;
 
-                const subCategoriesResponse = await axios.get(`https://weckwerthblog.wpcomstaging.com/wp-json/wp/v2/categories?parent=${bydgoszczCategoryId}&per_page=100`);
+                const subCategoriesResponse = await axios.get(`https://turystykabezfiltrow.com/wp-json/wp/v2/categories?parent=${bydgoszczCategoryId}&per_page=100`);
 
                 const categoriesData = [];
 
                 for (const category of subCategoriesResponse.data) {
-                    const postsResponse = await axios.get(`https://weckwerthblog.wpcomstaging.com/wp-json/wp/v2/posts?categories=${category.id}&per_page=1&_embed`);
+                    const postsResponse = await axios.get(`https://turystykabezfiltrow.com/wp-json/wp/v2/posts?categories=${category.id}&per_page=1&_embed`);
 
                     if (postsResponse.data.length > 0) {
                         const imageUrl = postsResponse.data[0]._embedded?.['wp:featuredmedia']?.[0]?.source_url || '';

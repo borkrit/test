@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Route, Routes, useNavigate} from 'react-router-dom';
+import {BrowserRouter, BrowserRouter as Router, Route, Routes, useNavigate} from 'react-router-dom';
 import {CssBaseline} from "@material-ui/core";
 
 import MainPage from "./components/pages/Main";
@@ -102,7 +102,7 @@ const App = () => {
 ReactDOM.render(
     <HelmetProvider context={helmetContext}>
         <React.StrictMode>
-            <App/>
+                <App/>
         </React.StrictMode>
     </HelmetProvider>
     ,

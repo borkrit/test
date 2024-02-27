@@ -42,7 +42,7 @@ const BydgoszczPostsPage = () => {
             setLoadingCategory(true);
             try {
                 const response = await fetch(
-                    `https://weckwerthblog.wpcomstaging.com/wp-json/wp/v2/categories?slug=${categorySlug}`
+                    `https://turystykabezfiltrow.com/wp-json/wp/v2/categories?slug=${categorySlug}`
                 );
 
                 if (!response.ok) {
@@ -75,7 +75,7 @@ const BydgoszczPostsPage = () => {
             setLoadingPosts(true);
             try {
                 const response = await fetch(
-                    `https://weckwerthblog.wpcomstaging.com/wp-json/wp/v2/posts?_embed&per_page=${postsPerPage}&page=${page}&categories=${currentCategorySlug}`
+                    `https://turystykabezfiltrow.com/wp-json/wp/v2/posts?_embed&per_page=${postsPerPage}&page=${page}&categories=${currentCategorySlug}`
                 );
 
                 if (!response.ok) {
